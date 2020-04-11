@@ -1,0 +1,23 @@
+body{
+    background-color: #fff;
+}
+.form-control{
+    width: initial;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.winner,.game-over{
+    -webkit-box-shadow: 3px 4px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 17px 0px rgba(0,0,0,0.75);
+    padding: 47px;
+    width: 50%;
+    text-align: center;
+    margin: 10% auto;
+}
+.name{
+    padding: 50px;
+    margin: 2% auto;
+    border-radius: 20px;
+    box-shadow: 3px 4px 17px 0px rgba(0,0,0,0.75);
+}

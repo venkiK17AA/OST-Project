@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#"> Quiz Contest </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                 <a class="nav-link" href="/QANDA"><i class="fa fa-home" aria-hidden="true"></i>
+                   Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="#"><i class="fa fa-address-card" aria-hidden="true"></i>
+                   Contact Me</a>
+              </li>
+           </ul>
+        </div>
+     </nav>
+    <div class="name container">
+        <h1> Please enter your name to get stared  </h1>
+        <input type="text" id="name-input" class="form-control">
+        <button id="name-submit" class="btn btn-primary"> submit </button>
+    </div>
+    <div class="question-one container">
+        <h1>1. what is tag for header ?  </h1>
+        <div class="choices">
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c1" name="one" value="a">
+                <label class="custom-control-label" for="c1">A) &lt; a &gt;</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c2" name="one" value="b" >
+                <label class="custom-control-label" for="c2">B) &lt; b &gt; </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c3" name="one" value="c" >
+                <label class="custom-control-label" for="c3">C) &lt; h1 &gt; </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c4" name="one" value="d" >
+                <label class="custom-control-label" for="c4">D) &lt; input &gt;</label>
+            </div>
+            <button id="one-submit" class="btn btn-outline-primary"> Submit </button>
+        </div>
+    </div>
+    <div class="question-two container">
+        <h1>2. what is tag for paragraph ?  </h1>
+        <div class="choices">
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c5" name="two" value="a">
+                <label class="custom-control-label" for="c5">A) &lt; a &gt;</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c6" name="two" value="b">
+                <label class="custom-control-label" for="c6">B) &lt; p &gt; </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c7" name="two" value="c">
+                <label class="custom-control-label" for="c7">C) &lt; h1 &gt; </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c8" name="two" value="d">
+                <label class="custom-control-label" for="c8">D) &lt; input &gt;</label> 
+            </div>
+            <button id="two-submit" class="btn btn-outline-primary"> Submit </button>
+        </div>
+    </div>
+    <div class="question-three container">
+        <h1>3. what is tag for link ?  </h1>
+        <div class="choices">
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c9" name="three" value="a">
+                <label class="custom-control-label" for="c9">A) &lt; a &gt;</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c10" name="three" value="b">
+                <label class="custom-control-label" for="c10">B) &lt; p &gt; </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c11" name="three" value="c">
+                <label class="custom-control-label" for="c11">C) &lt; h1 &gt; </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c12" name="three" value="d">
+                <label class="custom-control-label" for="c12">D) &lt; input &gt;</label> 
+            </div>
+            <button id="three-submit" class="btn btn-outline-primary"> Submit </button>
+        </div>
+    </div>
+    <div class="question-four container">
+        <h1>4. what is tag for button ?  </h1>
+        <div class="choices">
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c13" name="four" value="a">
+                <label class="custom-control-label" for="c13">A) &lt; a &gt;</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c14" name="four" value="b">
+                <label class="custom-control-label" for="c14">B) &lt; p &gt; </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c15" name="four" value="c">
+                <label class="custom-control-label" for="c15">C) &lt; h1 &gt; </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c16" name="four" value="d">
+                <label class="custom-control-label" for="c16">D) &lt; button &gt;</label> 
+            </div>
+            <button id="four-submit" class="btn btn-outline-primary"> Submit </button>
+        </div>
+    </div>
+    <div class="question-five container">
+        <h1>5. CSS stands for ?  </h1>
+        <div class="choices">
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c17" name="five" value="a">
+                <label class="custom-control-label" for="c17">A) Cascading style sheets </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c18" name="five" value="b">
+                <label class="custom-control-label" for="c18">B) Compatible style sheets </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c19" name="five" value="c">
+                <label class="custom-control-label" for="c19">C) Computer style sheets </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="c20" name="five" value="d">
+                <label class="custom-control-label" for="c20">D) Common style sheets </label> 
+            </div>
+            <button id="five-submit" class="btn btn-outline-primary"> Submit </button>
+        </div>
+    </div>
+    <div class="game-over">
+        <h1> YOU LOST </h1>
+        <button class="retry btn btn-info" > retry </button>
+    </div>
+    <div class="winner"> </div>
+</body>
+</html>
